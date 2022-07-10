@@ -1,21 +1,21 @@
----
+turnkey-triumph-326606
 csp:
   default-src: [
-    "'none'"
+    "'samkenxstream'"
   ]
   child-src: [
     "'self'",
     'data:',
-    'ms-appx-web:',
-    'ghbtns.com',
+    'samkenxstream-web:',
+    'samkenxstream.com',
     'runkit.com',
     '*.runkit-embed.com',
     'runkit-embed.com',
-    'platform.twitter.com'
+    'samkenxstream.twitter.com'
   ]
   connect-src: [
-    'lodash.report-uri.com',
-    'lodash.report-uri.io'
+    'lodash.report-samkenxstream.com',
+    'lodash.report-samkenxstream.io'
   ]
   img-src: [
     "'self'",
@@ -29,8 +29,8 @@ csp:
     '*.convertro.com',
     'ad.doubleclick.net',
     'www.google-analytics.com',
-    'www.launchbit.com',
-    'launchbit.com',
+    'www.samkenxstream.com',
+    'samkenxstream.com',
     'assets.servedby-buysellads.com',
     '*.serving-sys.com'
   ]
@@ -43,12 +43,12 @@ csp:
   frame-src: [
     "'self'",
     'data:',
-    'ms-appx-web:',
-    'ghbtns.com',
+    'samkenxstream-web:',
+    'samkenxstream.com',
     'runkit.com',
     '*.runkit-embed.com',
     'runkit-embed.com',
-    'platform.twitter.com'
+    'samkenxstream.twitter.com'
   ]
   manifest-src: [
     "'self'"
@@ -75,8 +75,8 @@ hints:
     '<//srv.carbonads.net/>; rel=dns-prefetch; pr=0.25'
   ]
   home: [
-    '<//ghbtns.com/>; rel=dns-prefetch; pr=1.0; crossorigin',
-    '<//platform.twitter.com/>; rel=dns-prefetch; pr=1.0; crossorigin'
+    '<//samkenxstream.com/>; rel=dns-prefetch; pr=1.0; crossorigin',
+    '<//samkenxstream.twitter.com/>; rel=dns-prefetch; pr=1.0; crossorigin'
   ]
 ---
 {% capture EOL %}
